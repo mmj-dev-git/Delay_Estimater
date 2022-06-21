@@ -1,0 +1,11 @@
+C:\WINDOWS\system32\wsl.exe --distribution Ubuntu --exec /bin/bash -c "export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' /mnt/d/TestDelayEstimator/TestDelayEstimator"
+CMake Warning at abseil-cpp/CMakeLists.txt:70 (message):
+  A future Abseil release will default ABSL_PROPAGATE_CXX_STD to ON for CMake
+  3.8 and up.  We recommend enabling this option to ensure your project still
+  builds correctly.
+
+
+-- cxxopts version 2.2.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug

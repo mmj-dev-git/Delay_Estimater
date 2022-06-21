@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainClass">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/client"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="i'm Client"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/server"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="i'm Server"
+            android:layout_marginBottom="16dp"
+            />
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/revertBack"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="RevertBack"
+            android:layout_marginBottom="16dp"
+            />
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            android:id="@+id/startRealTimeRecording"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="Start RealTime Calling"
+            android:layout_marginBottom="16dp"
+            />
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            android:id="@+id/startwavFileReader"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="Start WavFile Reader"
+            android:layout_marginBottom="16dp"
+            />
+
+        <EditText
+            android:hint="Enter WavFile Name : acb.wav"
+            android:id="@+id/etWavFileName"
+            android:layout_marginTop="16dp"
+            android:visibility="gone"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/readFromWav"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="Read WavFile"
+            android:layout_marginBottom="16dp"
+            />
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:id="@+id/playWave"
+            android:layout_width="280dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:text="Play WaveFile"
+            android:layout_marginBottom="16dp"
+            />
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:id="@+id/waveFileListener"
+            android:visibility="gone"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="Start WaveFile Listener"
+            android:layout_marginBottom="16dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ConstatintContainer"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:hint="Enter Ip Address"
+            android:id="@+id/etIp"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:layout_marginTop="16dp"
+            android:id="@+id/connect"
+            android:layout_marginRight="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/etIp"
+            android:layout_height="wrap_content"
+            android:text="Connect"
+            android:layout_marginBottom="16dp"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
+        android:id="@+id/tvIp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:id="@+id/tvStatus"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="16dp"
+        />
+
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/showIp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Show IP"
+        app:layout_constraintBottom_toTopOf="@+id/endCall"
+        android:layout_marginBottom="16dp"
+        />
+
+    <Button
+        android:id="@+id/endCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="End Call"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

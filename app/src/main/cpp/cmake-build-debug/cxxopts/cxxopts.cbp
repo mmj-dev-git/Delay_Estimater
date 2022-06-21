@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cxxopts"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\abseil-cpp\;CMake Files\abseil-cpp\CMake\;CMake Files\abseil-cpp\absl\;CMake Files\abseil-cpp\absl\copts\;CMake Files\abseil-cpp\absl\base\;CMake Files\abseil-cpp\absl\algorithm\;CMake Files\abseil-cpp\absl\cleanup\;CMake Files\abseil-cpp\absl\container\;CMake Files\abseil-cpp\absl\debugging\;CMake Files\abseil-cpp\absl\flags\;CMake Files\abseil-cpp\absl\functional\;CMake Files\abseil-cpp\absl\hash\;CMake Files\abseil-cpp\absl\memory\;CMake Files\abseil-cpp\absl\meta\;CMake Files\abseil-cpp\absl\numeric\;CMake Files\abseil-cpp\absl\profiling\;CMake Files\abseil-cpp\absl\random\;CMake Files\abseil-cpp\absl\status\;CMake Files\abseil-cpp\absl\strings\;CMake Files\abseil-cpp\absl\synchronization\;CMake Files\abseil-cpp\absl\time\;CMake Files\abseil-cpp\absl\types\;CMake Files\abseil-cpp\absl\utility\;CMake Files\src\;CMake Files\cxxopts\;CMake Files\cxxopts\src\;CMake Files\cxxopts\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example">
+				<Option output="/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/src/example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/TestDelayEstimator/TestDelayEstimator/cxxopts/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/src/Makefile&quot;  VERBOSE=1 example"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example/fast">
+				<Option output="/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/src/example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/TestDelayEstimator/TestDelayEstimator/cxxopts/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/src/Makefile&quot;  VERBOSE=1 example/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="link_test">
+				<Option output="/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test/link_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/TestDelayEstimator/TestDelayEstimator/cxxopts/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test/Makefile&quot;  VERBOSE=1 link_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="link_test/fast">
+				<Option output="/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test/link_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/TestDelayEstimator/TestDelayEstimator/cxxopts/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test/Makefile&quot;  VERBOSE=1 link_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="options_test">
+				<Option output="/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test/options_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/TestDelayEstimator/TestDelayEstimator/cxxopts/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test/Makefile&quot;  VERBOSE=1 options_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="options_test/fast">
+				<Option output="/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test/options_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/TestDelayEstimator/TestDelayEstimator/cxxopts/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test/Makefile&quot;  VERBOSE=1 options_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/TestDelayEstimator/TestDelayEstimator/cmake-build-debug/cxxopts/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/cxxopts/src/example.cpp">
+			<Option target="example"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/cxxopts/test/link_a.cpp">
+			<Option target="link_test"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/cxxopts/test/link_b.cpp">
+			<Option target="link_test"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/cxxopts/test/main.cpp">
+			<Option target="options_test"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/cxxopts/test/options.cpp">
+			<Option target="options_test"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\abseil-cpp\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/CMake/AbseilDll.cmake">
+			<Option virtualFolder="CMake Files\abseil-cpp\CMake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/CMake/AbseilHelpers.cmake">
+			<Option virtualFolder="CMake Files\abseil-cpp\CMake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/absl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\abseil-cpp\absl\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/absl/copts/AbseilConfigureCopts.cmake">
+			<Option virtualFolder="CMake Files\abseil-cpp\absl\copts\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/absl/copts/GENERATED_AbseilCopts.cmake">
+			<Option virtualFolder="CMake Files\abseil-cpp\absl\copts\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/absl/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\abseil-cpp\absl\base\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/absl/algorithm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\abseil-cpp\absl\algorithm\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/absl/cleanup/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\abseil-cpp\absl\cleanup\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/absl/container/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\abseil-cpp\absl\container\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/absl/debugging/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\abseil-cpp\absl\debugging\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/absl/flags/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\abseil-cpp\absl\flags\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/absl/functional/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\abseil-cpp\absl\functional\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/absl/hash/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\abseil-cpp\absl\hash\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/absl/memory/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\abseil-cpp\absl\memory\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/absl/meta/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\abseil-cpp\absl\meta\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/absl/numeric/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\abseil-cpp\absl\numeric\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/absl/profiling/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\abseil-cpp\absl\profiling\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/absl/random/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\abseil-cpp\absl\random\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/absl/status/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\abseil-cpp\absl\status\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/absl/strings/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\abseil-cpp\absl\strings\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/absl/synchronization/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\abseil-cpp\absl\synchronization\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/absl/time/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\abseil-cpp\absl\time\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/absl/types/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\abseil-cpp\absl\types\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/abseil-cpp/absl/utility/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\abseil-cpp\absl\utility\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/cxxopts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cxxopts\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/cxxopts/cxxopts-config.cmake.in">
+			<Option virtualFolder="CMake Files\cxxopts\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/cxxopts/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cxxopts\src\"/>
+		</Unit>
+		<Unit filename="/mnt/d/TestDelayEstimator/TestDelayEstimator/cxxopts/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cxxopts\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
